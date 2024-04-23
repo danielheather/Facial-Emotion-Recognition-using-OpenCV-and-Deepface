@@ -19,11 +19,11 @@ I have forked this work from the Github of another person in order to showcase t
       - `pip install opencv-python`
    
 If you are using Spyder as I was, you must include an exclamation mark before the manual installations and include an additional two lines of code:
--`!pip install deepface`
--`!pip install tf_keras`
--`!pip install opencv-python`
--`import cv2`
--`from deepface import DeepFace`
+- `!pip install deepface`
+- `!pip install tf_keras`
+- `!pip install opencv-python`
+- `import cv2`
+- `from deepface import DeepFace`
 
 2. Download the Haar cascade XML file for face detection:
    - Visit the [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades) and download the `haarcascade_frontalface_default.xml` file.
