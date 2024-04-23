@@ -18,7 +18,7 @@ I have forked this work from the Github of another person in order to showcase t
       - `pip install tf_keras`
       - `pip install opencv-python`
    
-If you are using Spyder as I was, you must include an exclamation mark before the manual installations and include an additional two lines of code.
+If you are using Spyder as I was, you must include an exclamation mark before the manual installations and include an additional two lines of code:
       - `!pip install deepface`
       - `!pip install tf_keras`
       - `!pip install opencv-python`
@@ -32,7 +32,7 @@ If you are using Spyder as I was, you must include an exclamation mark before th
    - Execute the emotion Python script.
    - The webcam will open, and real-time facial emotion detection will start.
    - Emotion labels will be displayed on the frames around detected faces.
-   - Press Q to close the webcam.
+   - Press Q to close the webcam when you are finished.
 
 ## Approach taken by Manish Tiwari 
 
