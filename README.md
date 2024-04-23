@@ -1,8 +1,6 @@
 # Facial-Emotion-Recognition-using-OpenCV-and-Deepface
 This project implements real-time facial emotion detection using the `deepface` library and OpenCV. It captures video from the webcam, detects faces, and predicts the emotions associated with each face. The emotion labels are displayed on the frames in real-time.
-This is probably the shortest code to implement realtime emotion monitoring.
-- Give this repository a ⭐ if you liked it, since it took me time to understand and implement this
-- Made with ❤️ by [Manish Tiwari](https://github.com/manish-9245)
+I have forked this work from the Github of another person in order to showcase the ease of use. Orignally by [Manish Tiwari](https://github.com/manish-9245)
 
 ## Dependencies
 
@@ -19,16 +17,24 @@ This is probably the shortest code to implement realtime emotion monitoring.
       - `pip install deepface`
       - `pip install tf_keras`
       - `pip install opencv-python`
+   
+If you are using Spyder as I was, you must include an exclamation mark before the manual installations and include an additional two lines of code.
+      - `!pip install deepface`
+      - `!pip install tf_keras`
+      - `!pip install opencv-python`
+	  - `import cv2`
+      - `from deepface import DeepFace`
 
 2. Download the Haar cascade XML file for face detection:
    - Visit the [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades) and download the `haarcascade_frontalface_default.xml` file.
 
 3. Run the code:
-   - Execute the Python script.
+   - Execute the emotion Python script.
    - The webcam will open, and real-time facial emotion detection will start.
    - Emotion labels will be displayed on the frames around detected faces.
+   - Press Q to close the webcam.
 
-## Approach
+## Approach taken by Manish Tiwari 
 
 1. Import the necessary libraries: `cv2` for video capture and image processing, and `deepface` for the emotion detection model.
 
